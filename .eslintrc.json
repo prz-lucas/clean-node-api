@@ -3,7 +3,8 @@
     "parserOptions": {
         "project": "./tsconfig.json"
     },
-    "compilerOptions": {
-        "strictNullChecks": true
+    "rules": {
+        "indent": "off",
+        "@typescript-eslint/indent": "off"
     }
 }
